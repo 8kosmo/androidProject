@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StartMessage</string>
+    <string name="hint">Enter a message</string>
+    <string name="send">전송</string>
+</resources>

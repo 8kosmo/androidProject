@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SellLimited</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="nav_login">로그인</string>
+    <string name="nav_member">회원관리</string>
+    <string name="nav_product">상품관리</string>
+    <string name="nav_notice">공지사항</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Help</string>
+</resources>

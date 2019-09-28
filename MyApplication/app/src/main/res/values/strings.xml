@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">seach a bottle of beer</string>
+    <string name="button">맥주찾기</string>
+    <string name="brand">No beers selected</string>
+    <string-array name="brands_color">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
+    <string name="title_activity_find_beer">FindBeerActivity</string>
+</resources>

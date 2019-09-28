@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/login"
+            android:title="@string/nav_login"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/member"
+            android:title="@string/nav_member"/>
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/product"
+            android:title="@string/nav_product"/>
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/comment"
+            android:title="@string/nav_notice"/>
+    </group>
+    <item android:title="@string/nav_support">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/comment"
+                android:title="help"/>
+        </menu>
+    </item>
+</menu>

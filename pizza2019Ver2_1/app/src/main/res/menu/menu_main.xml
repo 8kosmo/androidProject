@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- ifRoom:앱바에 공간이 있으면 공유액션 프로바이더를 표시함.
+         orderInCategory 앱바에 순서
+     -->
+    <item android:id="@+id/action_create_order"
+    android:title="@string/create_order"
+    android:icon="@drawable/ic_add_white_24dp"
+    android:orderInCategory="1"
+    app:showAsAction="ifRoom"
+    />
+    <!-- 공유 액션 프로바이더는 이미 아이콘을 정의하고 있기때문 아이콘을 추가할 필요 없다. -->
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        />
+</menu>
